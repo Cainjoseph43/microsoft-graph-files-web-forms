@@ -16,12 +16,12 @@ namespace microsoft_graph_files_web_forms
             
             if (auth.GetAppAccessToken())
             {
-                // You success retreived an access token
+                // You success retreived an access token.
                 string token = auth.AppAccessToken;
             }
             else
             {
-                // Something didn't work
+                // Something didn't work.
             }
         }
     }
